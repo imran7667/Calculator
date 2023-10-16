@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    max-width: 400px; /* Adjust the max width as needed */
+    width: 90%;
+    background-color: rgb(56, 143, 114);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust column width */
+    grid-gap: 10px;
+    margin-top: 10px;
+    color: beige;
+    color: black;
+}
+
+button {
+    font-size: 25px;
+    padding: 30px;
+    border: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.head{
+    font-size: 20px;
+    color: black;
+}
+
+.operator {
+    background-color: #f0f0f0;
+}
+
+.clear {
+    background-color: #e57373;
+    color: white;
+}
+
+.calculate {
+    background-color: #64b5f6;
+    color: white;
+    grid-column: span 1;
+}
+input {
+    font-size: 30px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%; /* Make the input field span the width of the container */
+}
